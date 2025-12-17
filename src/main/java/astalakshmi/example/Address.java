@@ -1,3 +1,5 @@
+package astalakshmi.example;
+
 public class Address {
     private String street;
     private String city;
@@ -42,10 +44,12 @@ public class Address {
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
-    public void getAddressDetails() {
+
+    public String getAddressDetails() {
         System.out.println("Street: " + street);
         System.out.println("City: " + city);
         System.out.println("State: " + state);
         System.out.println("Zip Code: " + zipCode);
+        return street + ", " + city + ", " + state + " " + zipCode;
     }
 }

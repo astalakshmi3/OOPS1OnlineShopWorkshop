@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Order {
     private final int OrderID;
     private final Customer customer;
+    private Address address;
     private final ArrayList<Product> products;
 
     public Order(int orderID, Customer customer) {
@@ -46,7 +47,9 @@ public class Order {
 
         System.out.println("Order ID: " + OrderID);
         System.out.println("Customer Name: " + customer.getCustomerName());
+        System.out.println("Customer Email: " + customer.getCustomerEmail());
         System.out.println("Total Products:" + products.size());
+        System.out.println("Address: "  + customer.getCustomerAddress());
         System.out.println("Products in the Order:");
         for (Product product : products) {
             System.out.println("- " + product.getProductName() + ": " + product.getProductPrice());
