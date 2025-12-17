@@ -34,14 +34,6 @@ build/
 
 ### VS Code ###
 .vscode/
-# IntelliJ IDEA
-.idea/
-*.iml
 
-# Java build folders
-out/
-target/
-
-# OS files
+### Mac OS ###
 .DS_Store
-
