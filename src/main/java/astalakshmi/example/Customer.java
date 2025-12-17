@@ -5,6 +5,7 @@ public class Customer {
     private String CustomerName;
     private String CustomerEmail;
 
+
     public Customer(int customerID, String customerName, String customerEmail) {
         this.CustomerID = customerID;
         this.CustomerName = customerName;
