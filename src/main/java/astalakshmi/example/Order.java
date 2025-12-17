@@ -46,6 +46,7 @@ public class Order {
 
         System.out.println("Order ID: " + OrderID);
         System.out.println("Customer Name: " + customer.getCustomerName());
+        System.out.println("Customer Email: " + customer.getCustomerEmail());
         System.out.println("Total Products:" + products.size());
         System.out.println("Products in the Order:");
         for (Product product : products) {
